@@ -2,5 +2,5 @@
 description: Cosa realizzeremo
 ---
 
-# 1. Introduzione
+# Introduzione
 
