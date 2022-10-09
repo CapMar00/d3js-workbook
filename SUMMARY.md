@@ -8,10 +8,10 @@
 * [Perché usare D3.js](introduzione/perche-usare-d3.js.md)
 * [Come lavora D3.js](introduzione/come-lavora-d3.js.md)
 
-## Grafico 1
+## Creiamo un grafico
 
-* [Introduzione](grafico-1/introduzione.md)
-* [Importiamo i dati](grafico-1/importiamo-i-dati.md)
+* [Introduzione](creiamo-un-grafico/introduzione.md)
+* [Importiamo i dati](creiamo-un-grafico/importiamo-i-dati.md)
 
 ## Grafico 2
 
