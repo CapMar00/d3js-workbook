@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Crea i tuoi grafici con D3.js](README.md)
+* [🎨 Crea le tue visualizzazioni con D3.js](README.md)
 
 ## Introduzione
 
@@ -10,13 +10,9 @@
 
 ## Creiamo un grafico
 
-* [Introduzione](creiamo-un-grafico/introduzione.md)
-* [Importiamo i dati](creiamo-un-grafico/importiamo-i-dati.md)
-
-## Grafico 2
-
-* [Liberiamo la fantasia](grafico-2/liberiamo-la-fantasia.md)
+* [Introduzione](grafico-1/introduzione.md)
+* [Importiamo i dati](grafico-1/importiamo-i-dati.md)
 
 ***
 
-* [Risorse per approfondire](risorse-per-approfondire.md)
+* [📌 Risorse per approfondire](risorse-per-approfondire.md)

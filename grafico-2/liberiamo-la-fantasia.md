@@ -1,2 +1,0 @@
-# Liberiamo la fantasia
-
