@@ -12,4 +12,16 @@ La sua potenza è tutta racchiusa nelle tre D da cui prende il nome: Data-Driven
 Leggi il[ paper che sancisce la nascita di D3](http://vis.stanford.edu/files/2011-D3-InfoVis.pdf)
 {% endhint %}
 
-É ormai uno standard nel campo della visualizzazione dati ed è costantemente aggiornata e arrichita di nuove funzionalità. Attualmente l'ultima versione disponibile è la [v7](https://github.com/d3/d3/releases)&#x20;
+É ormai uno standard nel campo della visualizzazione dati ed è costantemente aggiornata e arrichita di nuove funzionalità. Attualmente l'ultima versione disponibile è la [v7](https://github.com/d3/d3/releases).
+
+Con <img src="../.gitbook/assets/1562726.png" alt="" data-size="line">è possibile creare dai grafici più semplici come un andamento
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://observablehq.com/@d3/line-with-tooltip">https://observablehq.com/@d3/line-with-tooltip</a></p></figcaption></figure>
+
+fino ai grafici più complessi come per esempio i radial cluster...&#x20;
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://observablehq.com/@d3/radial-cluster">https://observablehq.com/@d3/radial-cluster</a></p></figcaption></figure>
+
+... e le mappe
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://observablehq.com/@d3/choropleth">https://observablehq.com/@d3/choropleth</a></p></figcaption></figure>
