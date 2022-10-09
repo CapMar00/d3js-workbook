@@ -5,7 +5,7 @@
 ## Introduzione
 
 * [Che cos'è D3.js](introduzione/che-cose-d3.js.md)
-* [Cosa ti servirà](introduzione/cosa-ti-servira.md)
+* [Perché usare D3.js](introduzione/perche-usare-d3.js.md)
 * [Come lavora D3.js](introduzione/come-lavora-d3.js.md)
 
 ## Grafico 1
