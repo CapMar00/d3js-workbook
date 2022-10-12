@@ -49,10 +49,14 @@ d3.selectAll(“div”)
 	.html(“Testo”)
 	.append(“span”)
 	.html(“Altro testo”)
-	.style(“font-family”, “Arial”)
+	.style(“color”, “blue”)
 ```
 
 &#x20;Le funzioni possono essere concatenate perché l'istruzione che precede restuisce un risultato che può essere processato da quella successiva.
 
 ### Data binding
+
+Nel codice precedente abbiamo anche incontrato per la prima volta il metodo `.data()` con il quale si legano i dati in input agli elementi del DOM selezionati.
+
+
 
