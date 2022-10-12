@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Crea le tue visualizzazioni con D3.js](README.md)
+* [D3.js, disegna con il codice](README.md)
 
 ## IN TEORIA
 
