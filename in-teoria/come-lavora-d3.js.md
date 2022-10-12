@@ -36,3 +36,23 @@ Per approfondire:\
 \- [https://observablehq.com/@d3/treemap](https://observablehq.com/@d3/treemap)\
 \- [https://github.com/d3/d3-selection](https://github.com/d3/d3-selection)
 {% endhint %}
+
+### Function chaining
+
+<img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> utilizza in maniera estensiva l'approccio _function chaining_ dove più funzioni vengono chiamate consecutivamente sullo stesso oggetto.
+
+```javascript
+d3.selectAll(“div”)
+	.data(array)
+	.enter()
+	.append(“div”)
+	.html(“Testo”)
+	.append(“span”)
+	.html(“Altro testo”)
+	.style(“font-family”, “Arial”)
+```
+
+&#x20;Le funzioni possono essere concatenate perché l'istruzione che precede restuisce un risultato che può essere processato da quella successiva.
+
+### Data binding
+
