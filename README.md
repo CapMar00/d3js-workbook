@@ -1,4 +1,4 @@
-# 🎨 Crea le tue visualizzazioni con D3.js
+# Crea le tue visualizzazioni con D3.js
 
 Ciao,
 

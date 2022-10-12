@@ -2,16 +2,16 @@
 
 * [Crea le tue visualizzazioni con D3.js](README.md)
 
-## Introduzione
+## IN TEORIA
 
-* [Che cos'è D3.js](introduzione/che-cose-d3.js.md)
-* [Perché usare D3.js](introduzione/perche-usare-d3.js.md)
-* [Come lavora D3.js](introduzione/come-lavora-d3.js.md)
+* [Che cos'è D3.js](in-teoria/che-cose-d3.js.md)
+* [Perché usare D3.js](in-teoria/perche-usare-d3.js.md)
+* [Come lavora D3.js](in-teoria/come-lavora-d3.js.md)
 
-## Creiamo un grafico
+## IN PRATICA
 
-* [Introduzione](grafico-1/introduzione.md)
-* [Importiamo i dati](grafico-1/importiamo-i-dati.md)
+* [Creiamo un grafico](in-pratica/creiamo-un-grafico.md)
+* [Importiamo i dati](in-pratica/importiamo-i-dati.md)
 
 ***
 

@@ -8,7 +8,7 @@ Inoltre la sua versatilità assicura ottimi risultati su ogni tipo di progetto, 
 
 <img src="../.gitbook/assets/1562726.png" alt="" data-size="line">poggia sugli standard web HTML5, CSS3, SVG e Canvas e ne sfrutta appieno le potenzialità.
 
-Dalla versione 4 in poi è stata armonizzata con javascript ES6 per cui c'è piena compatibilità con le nuove caratteristiche di questo linguaggio.
+Dalla versione 4 in poi è stata armonizzata con javascript ES6 per cui c'è piena compatibilità con le nuove caratteristiche di questo linguaggio. Può essere integrata anche in progetti basati su altre librerie come per esempio jQuery o React o framework quali Angular.
 
 &#x20;É compatibile con i formati di dati più comuni come csv e json.
 

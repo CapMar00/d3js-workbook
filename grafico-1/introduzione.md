@@ -1,6 +1,0 @@
----
-description: Cosa realizzeremo
----
-
-# Introduzione
-
