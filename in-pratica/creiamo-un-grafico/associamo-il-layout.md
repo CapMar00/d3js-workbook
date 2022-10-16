@@ -26,7 +26,9 @@ const createChart = (data) => {
 {% endtabs %}
 
 {% hint style="info" %}
-Per approfondire: [d3-shape](https://github.com/d3/d3-shape)
+Per approfondire:\
+\- [d3-shape](https://github.com/d3/d3-shape)\
+\- [https://observablehq.com/@d3/d3-line](https://observablehq.com/@d3/d3-line)
 {% endhint %}
 
 &#x20;
