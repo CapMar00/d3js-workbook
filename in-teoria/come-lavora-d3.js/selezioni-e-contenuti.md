@@ -68,10 +68,10 @@ d3.select("li").remove()
 Per modificare o assegnare nuove proprietà a un elemento si usa il metodo .attr() con la sintassi:\
 `selezione.attr(attributo, valore)`.
 
-Se per esempio volessimo assegnare una classe ai tag `<p>`:
+Se per esempio volessimo assegnare un path a un `<img>`:
 
 ```javascript
-// Some code
+d3.select('img').attr('src', 'new_image.png')
 ```
 
 La sintassi `selezione.attr(attributo)` invece restituisce il valore dell'attributo.
