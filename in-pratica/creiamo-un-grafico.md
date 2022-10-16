@@ -9,7 +9,7 @@ description: >-
 
 I dati sono in formato csv e sono pubblicati dal [Ministero della Trasizione Ecologica](https://dgsaie.mise.gov.it/open-data). Fanno parte di un dataset più ampio che contiene i prezzi di più carburanti che per semplicità è stato ridotto a 2 colonne:&#x20;
 
-* **SURVEY\_DATE** -> data espressa in gg-mm-aaaa
+* **SURVEY\_DATE** -> data espressa in aaaa-mm-gg
 * **HEATING\_GAS\_OIL** -> il prezzo espresso in €/1.000 L
 
 ```csv
