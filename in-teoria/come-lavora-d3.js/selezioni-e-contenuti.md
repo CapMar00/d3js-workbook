@@ -40,7 +40,7 @@ Per inserire del contenuto all'interno del nuovo div possiamo usare:
   const div = d3
     .select("body")
     .append("div")
-    .html("testo e <span>codice html</span>")
+    .html("testo e <strong>codice html</strong>")
 ```
 
 ### Rimuovere elementi
