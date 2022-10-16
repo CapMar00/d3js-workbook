@@ -25,4 +25,8 @@ const createChart = (data) => {
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+Per approfondire: [d3-shape](https://github.com/d3/d3-shape)
+{% endhint %}
+
 &#x20;
