@@ -2,7 +2,7 @@
 
 Non ci resta dunque che disegnare gli assi e il grafico sullo schermo selezionando con `.select()` il gruppo `<g>` e poi inserendo gli elementi con `.append()`.
 
-Nel caso dell'asse y dovremo applicare una trasformazione per farlo comparire al piede del grafico invece che in alto:
+Disegniamo prima gli assi. Nel caso dell'asse y dovremo applicare una trasformazione per farlo comparire al piede del grafico invece che in alto:
 
 {% tabs %}
 {% tab title="chart.js" %}
