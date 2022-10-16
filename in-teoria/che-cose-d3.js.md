@@ -1,4 +1,4 @@
-# Che cos'è D3.js
+# 📖 Che cos'è D3.js
 
 <img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> è una libreria javascript open source per creare visualizzazioni di dati e grafiche web.
 
@@ -26,6 +26,6 @@ fino ai grafici più complessi come per esempio i radial cluster...&#x20;
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://observablehq.com/@d3/choropleth">https://observablehq.com/@d3/choropleth</a></p></figcaption></figure>
 
-E lo fa aggiungendo, rimuovendo e aggiornando gli elementi del DOM a seconda dei dati a disposizione:
+<img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> aggiungendo, rimuovendo e aggiornando gli elementi del DOM a seconda dei dati a disposizione:
 
 <figure><img src="../.gitbook/assets/console.png" alt=""><figcaption></figcaption></figure>
