@@ -10,7 +10,7 @@ Nel caso dell'asse y dovremo applicare una trasformazione per farlo comparire al
 {% tab title="chart.js" %}
 ```javascript
 const chartBody = d3.select("#chart_body");
-
+...
 const createChart = (data) => {
    
   ...
