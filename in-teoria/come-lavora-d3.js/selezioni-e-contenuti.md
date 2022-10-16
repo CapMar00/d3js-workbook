@@ -33,8 +33,8 @@ Per esempio per aggiungere un `div` al `body`:
 
 Per inserire del contenuto all'interno del nuovo div possiamo usare:
 
-* `.text()` se vogliamo aggiungere del semplice testo
-* `.html()` se vogliamo aggiungere del codice html
+* `.text([testo])` se vogliamo aggiungere del semplice testo
+* `.html([html])` se vogliamo aggiungere del codice html
 
 ```javascript
   const div = d3
@@ -42,6 +42,8 @@ Per inserire del contenuto all'interno del nuovo div possiamo usare:
     .append("div")
     .html("testo e <strong>codice html</strong>")
 ```
+
+Le sintassi `.text()` e `.html()` senza valore al loro interno restituiscono il contenuto presente all'interno dell'elemento selezionato.
 
 ### Rimuovere elementi
 
@@ -60,3 +62,16 @@ e per rimuovere solo il primo
 ```javascript
 d3.select("li").remove()
 ```
+
+### Cambiare le proprietà di un elemento
+
+Per modificare o assegnare nuove proprietà a un elemento si usa il metodo .attr() con la sintassi:\
+`selezione.attr(attributo, valore)`.
+
+Se per esempio volessimo assegnare una classe ai tag `<p>`:
+
+```javascript
+// Some code
+```
+
+La sintassi `selezione.attr(attributo)` invece restituisce il valore dell'attributo.
