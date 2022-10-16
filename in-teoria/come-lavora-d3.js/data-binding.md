@@ -7,7 +7,7 @@ Si tratta di un processo utilizzato per creare, aggiornare o rimuovere elementi 
 `.data()` prende come input un array di dati e un array di elementi del documento e restituisce 3 tipi di selezioni:
 
 * `.enter()` - rappresenta gli elementi mancanti rispetto ai dati che potrebbe essere necessario creare e aggiungere al documento.
-* `.exit()` - rappressenta gli elementi in eccesso rispetto ai dati che potrebbe essere necessario rimuovere dal documento.
+* `.exit()` - rappresenta gli elementi in eccesso rispetto ai dati che potrebbe essere necessario rimuovere dal documento.
 * `.update()` - rappresenta gli elementi esistenti che corrispondono ai dati ma che potrebbe essere necessario modificare
 
 <figure><img src="../../.gitbook/assets/data-join (1).png" alt=""><figcaption></figcaption></figure>
