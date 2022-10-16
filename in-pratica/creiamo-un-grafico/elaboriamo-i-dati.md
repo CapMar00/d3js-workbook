@@ -18,7 +18,7 @@ const createChart = (data) => {
 {% endtab %}
 {% endtabs %}
 
-I dati vengono importati in formato stringa ma per potere applicare le funzioni di d3 abbiamo bisogno che siano rispettivamente in un formato `date` e numerico:\
+I dati vengono importati in formato stringa ma per potere applicare le funzioni di d3 abbiamo bisogno che siano rispettivamente in un formato `date` e numerico. Procediamo dunque a trasformarli:\
 
 
 {% tabs %}
