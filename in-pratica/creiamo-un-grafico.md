@@ -1,3 +1,3 @@
 # Creiamo un grafico
 
-<figure><img src="https://raw.githubusercontent.com/CapMar00/d3js-line-chart/main/img/Prezzo-gasolio-riscaldamento.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Prezzo-gasolio-riscaldamento.png" alt=""><figcaption><p><a href="https://github.com/CapMar00/d3js-line-chart">https://github.com/CapMar00/d3js-line-chart</a></p></figcaption></figure>
