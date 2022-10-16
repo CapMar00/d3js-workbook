@@ -1,11 +1,17 @@
 # Step 1. Importiamo i dati
 
-Per importare i dati  <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> mette a disposizione una serie di funzioni dedidate a formati più comuni, in particolare d3.csv() e d3.json().
+Per importare i dati <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> mette a disposizione una serie di funzioni dedicate ai formati più comuni e che si occupano anche del parsing, come per esempio `d3.csv()` e `d3.json()`.
 
-<img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> importa i dati in maniera asincrona, quindi la realizzazione del grafico va gestita .
+Così come Javascript, anche<img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> carica i dati in maniera asincrona, quindi la realizzazione del grafico va gestita all'interno di una funzione di callback in modo di avere la certezza che tutti i dati siano stati caricati.
+
+```javascript
+// Some code
+```
 
 {% hint style="info" %}
-Per approfondire: [https://github.com/d3/d3-fetch](https://github.com/d3/d3-fetch)
+Per approfondire: \
+\- [https://github.com/d3/d3-fetch](https://github.com/d3/d3-fetch)\
+\- [Reading in data](http://learnjsdata.com/read\_data.html)
 {% endhint %}
 
 ### Data binding
