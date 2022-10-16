@@ -2,7 +2,7 @@
 
 Per esprimere i nostri dati abbiamo scelto come visualizzazione un andamento.
 
-Per creare questo genere di grafico <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> mette a disposizione d3.line()
+Per creare questo genere di grafico <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> mette a disposizione `.line()`
 
 {% tabs %}
 {% tab title="chart.js" %}
