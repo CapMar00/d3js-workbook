@@ -106,3 +106,7 @@ div.tooltip {
 ```
 {% endtab %}
 {% endtabs %}
+
+Ecco che cosa avremo in pagina:
+
+<figure><img src="../../.gitbook/assets/grafico-vuoto.png" alt=""><figcaption></figcaption></figure>
