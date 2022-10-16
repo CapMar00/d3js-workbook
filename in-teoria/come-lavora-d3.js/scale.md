@@ -9,12 +9,19 @@ Per poterli normalizzare e visualizzare correttamente si utilizzano le scale che
 * `d3.scaleOrdinal()`
 * `d3.scaleTime()`
 
-A ciascuna scala è associato un domain e un range: `.domain()` fa riferimento al dominio dei dati mentre `.range()` allo spazio della visualizzazione.\
+Le scale lavorano su domain e range: `.domain()` fa riferimento al dominio dei dati mentre `.range()` allo spazio della visualizzazione.\
 
 
 <figure><img src="../../.gitbook/assets/domain-range.svg" alt=""><figcaption></figcaption></figure>
 
-Le scale mappano il set di valori del domain nel set di valori del range secondo la relazione determinata dal tipo di scala prescelto.
+Le scale mappano il set di valori del domain nel set di valori del range secondo la relazione determinata dal tipo di scala prescelto:\
+
+
+```javascript
+let myScale = d3.scaleLinear()
+  .domain([100, 1000000])
+  .range([0, 500]);
+```
 
 {% hint style="info" %}
 Per approfondire:\
