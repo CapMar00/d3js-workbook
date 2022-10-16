@@ -77,7 +77,7 @@ const createChart = (data) => {
 {% endtab %}
 {% endtabs %}
 
-xxxxxx
+I path SVG si chiudono automaticamente, dando vita a forme geometriche irregolari. Per mantere l'aspetto di una linea aperta, impostiamo le proprietà `fill` e `stroke` nello `style.css`
 
 {% hint style="info" %}
 Per approfondire:\
