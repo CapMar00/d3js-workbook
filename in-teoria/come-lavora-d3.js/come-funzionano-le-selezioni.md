@@ -12,7 +12,7 @@ Fra le parentesi si posso utilizzare tutti i selettori validi nei CSS: tag, clas
 Le selezioni possono essere concatenate:
 
 ```javascript
-d3.select("div").select(".title")
+let title = d3.select("div").select(".title")
 ```
 
-Così selezioniamo il primo elemento con classe `title` all'interno del primo `div`.
+Così selezioniamo il primo elemento con classe `title` all'interno del primo `div` e la assegniamo a una variabile title.
