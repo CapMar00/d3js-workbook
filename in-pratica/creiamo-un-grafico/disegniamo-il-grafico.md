@@ -30,7 +30,7 @@ const createChart = (data) => {
 {% endtab %}
 {% endtabs %}
 
-Per disegnare l'andamento vero e proprio utilizzeremo un tag `<path>` a cui passeremo i dati.&#x20;
+ora procediamo con l'andamento: utilizzeremo un tag `<path>` a cui passeremo i dati.&#x20;
 
 Nel caso degli andamenti per il binding dei dati si utilizza `.datum()`, invece di `.data()` perché i dati vengono associati a un unico elemento  `<path>` invece che ad una serie di elementi.&#x20;
 
