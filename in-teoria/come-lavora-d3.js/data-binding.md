@@ -36,7 +36,7 @@ d3.select('svg')
     .append('circle')
 ```
 
-Il codice sopra quindi seleziona i dati a cui non è associato un elemento in pagina e aggiunge gli elementi.
+Il codice sopra quindi seleziona i dati a cui non è associato un elemento in pagina e aggiunge gli elementi corrispondenti.
 
 L'istruzione successiva restituisce invece la selezione degli elementi a cui non è associato nessun dato:
 
