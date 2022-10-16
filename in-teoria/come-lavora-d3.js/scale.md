@@ -1,8 +1,8 @@
-# Le scale
+# Scale
 
 I dati difficilmente corrispondono già alla posizione e alle dimensioni degli elementi grafici sullo schermo.
 
-Per poterli normalizzare e visualizzare correttamente si utilizzano le scale che esprimono valori continui o discreti e rapporti lineari o più complessi:
+Per poterli normalizzare e visualizzare correttamente si utilizzano le scale che esprimono valori continui o discreti e rapporti lineari o più complessi. Eccone alcune:
 
 * `d3.scaleLinear()`
 * `d3.scaleLog()`
