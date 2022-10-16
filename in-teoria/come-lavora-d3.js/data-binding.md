@@ -4,7 +4,7 @@ Un aspetto cruciale nell'utilizzo di <img src="../../.gitbook/assets/1562726.png
 
 Si tratta di un processo utilizzato per creare, aggiornare o rimuovere elementi ogni volta che i dati cambiano. il metodo preposto è  `.data()` .
 
-`.data()` prende come input un array di dati e un array di elementi del documento e restituisce tre selezioni:
+`.data()` prende come input un array di dati e un array di elementi del documento e restituisce 3 tipi di selezioni:
 
 * `.enter()` - rappresenta gli elementi mancanti rispetto ai dati che potrebbe essere necessario creare e aggiungere al documento.
 * `.exit()` - rappressenta gli elementi in eccesso rispetto ai dati che potrebbe essere necessario rimuovere dal documento.
