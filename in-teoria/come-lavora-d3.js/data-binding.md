@@ -2,7 +2,7 @@
 
 Un aspetto cruciale nell'utilizzo di <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> è capire come <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> associa i dati agli elementi in pagina, ovvero il _binding_ o _join_ dei dati.
 
-Si tratta di un processo utilizzato per creare, aggiornare o distruggere elementi ogni volta che i dati cambiano e viene richiamato dal metodo  `.data()` .
+Si tratta di un processo utilizzato per creare, aggiornare o rimuovere elementi ogni volta che i dati cambiano e viene richiamato dal metodo  `.data()` .
 
 `.data()` prende come input un array di dati e un array di elementi del documento e restituisce tre selezioni:
 
