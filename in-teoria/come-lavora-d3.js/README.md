@@ -4,10 +4,13 @@
 
 I passaggi **** per **creare una visualizzazione** in <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> si possono riassumere in **4 step**:
 
-1. Importare e manipolare i dati in formati compatibili con le visualizzazioni
-2. Mappare i dati rispetto allo spazio della visualizzazione, ovvero rapportare i valori allo spazio sullo schermo in modo da poterli disegnare in modo proporzionato.
-3. Associare il layout in base al tipo di visualizzazione prescelta.
-4. Disegnare il grafico sullo schermo.
+&#x20;     :one: Importare e manipolare i dati in formati compatibili con le visualizzazioni
+
+&#x20;     :two: Mappare i dati rispetto allo spazio della visualizzazione, ovvero rapportare i valori allo spazio sullo schermo in modo da poterli disegnare in modo proporzionato.
+
+&#x20;     :three: Associare il layout in base al tipo di visualizzazione prescelta.
+
+&#x20;     :four: Disegnare il grafico sullo schermo.
 
 <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> è composta da 2 macro famiglie di funzioni:
 
@@ -23,10 +26,13 @@ si accede a queste funzioni utilizzando le API con questa sintassi:\
 
 Così, rispetto ai 4 step principali troviamo come funzioni corrispondenti per esempio:
 
-1. **Elaborare i dati** -> `d3.min(), d3.max(), d3.sum()` che restituiscono i valori minimo, massimo e somma di un iterabile e `d3.cross()` che restituisce il prodotto cartesiano di 2 vettori.
-2. **Mappare i dati nello spazio** -> `d3.scaleLinear(), d3.scaleOrdinal()` e `d3.scaleTime()` come esempi di funzione necessarie per creare le scale.
-3. **Associare il layout** -> `d3.path()` usata per definire i path negli svg e `d3.treemap()` per creare mappe ad albero.
-4. **Disegnare il grafico** -> `d3.select(), d3.selectAll(), d3.append()` funzioni che lavorano con gli elementi del DOM.
+:one: **Elaborare i dati** -> `d3.min(), d3.max(), d3.sum()` che restituiscono i valori minimo, massimo e somma di un iterabile e `d3.cross()` che restituisce il prodotto cartesiano di 2 vettori.
+
+:two: **Mappare i dati nello spazio** -> `d3.scaleLinear(), d3.scaleOrdinal()` e `d3.scaleTime()` come esempi di funzione necessarie per creare le scale.
+
+:three: **Associare il layout** -> `d3.path()` usata per definire i path negli svg e `d3.treemap()` per creare mappe ad albero.
+
+:four: **Disegnare il grafico** -> `d3.select(), d3.selectAll(), d3.append()` funzioni che lavorano con gli elementi del DOM.
 
 {% hint style="info" %}
 Per approfondire:\
