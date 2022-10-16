@@ -4,7 +4,7 @@
 
 I passaggi **** per **creare una visualizzazione** in <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> si possono riassumere in **4 step**:
 
-1. Trasformare i dati importati in formati compatibili con le visualizzazioni
+1. Importare e traformare i dati in formati compatibili con le visualizzazioni
 2. Mappare i dati rispetto allo spazio della visualizzazione, ovvero rapportare i valori allo spazio sullo schermo in modo da poterli disegnare in modo proporzionato.
 3. Associare il layout in base al tipo di visualizzazione prescelta.
 4. Disegnare il grafico sullo schermo.
@@ -18,7 +18,7 @@ Una volta importata la libreria con l'approccio  preferito (CDN, npm, ecc.)&#x20
 
 **`<script src="https://d3js.org/d3.v7.min.js"></script>`**
 
-si accede alle funzioni utilizzando le API con questa sintassi:\
+si accede a queste funzioni utilizzando le API con questa sintassi:\
 **`d3.metodo()`**
 
 Così, rispetto ai 4 step principali troviamo come funzioni corrispondenti per esempio:
