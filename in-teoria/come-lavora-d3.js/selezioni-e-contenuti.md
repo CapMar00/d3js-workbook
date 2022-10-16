@@ -1,6 +1,6 @@
 # Selezioni e contenuti
 
-Le selections di <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> permette di selezionare elementi del DOM e di manipolarli.
+Le selection API di <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> permettono di selezionare elementi del DOM e di manipolarli.
 
 Esistono 2 metodi per farlo:
 
