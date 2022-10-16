@@ -5,7 +5,13 @@ Per importare i dati <img src="../../.gitbook/assets/1562726.png" alt="" data-si
 Così come Javascript, anche<img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> carica i dati in maniera asincrona, quindi la realizzazione del grafico va gestita all'interno di una funzione di callback in modo di avere la certezza che tutti i dati siano stati caricati.
 
 ```javascript
-// Some code
+d3.csv(urlDati)
+  .then(funzione)
+  .catch(errore)
+
+d3.json(urlDati)
+  .then(funzione)
+  .catch(errore)
 ```
 
 {% hint style="info" %}
