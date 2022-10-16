@@ -6,7 +6,7 @@ Ormai sono disponibili online molte librerie che permettono la creazione di graf
 
 Inoltre la sua versatilità assicura ottimi risultati su ogni tipo di progetto, dai semplici prototipi per scopi di ricerca alla realizzazione di dashboard complesse che poggiano su ampi dataset.
 
-<img src="../.gitbook/assets/1562726.png" alt="" data-size="line">poggia sugli standard web HTML5, CSS3, SVG e Canvas e ne sfrutta appieno le potenzialità.
+<img src="../.gitbook/assets/1562726.png" alt="" data-size="line">è conforme agli standard web HTML5, CSS3, SVG e Canvas e ne sfrutta appieno le potenzialità.
 
 Dalla versione 4 in poi è stata armonizzata con javascript ES6 per cui c'è piena compatibilità con le nuove caratteristiche di questo linguaggio. Può essere integrata anche in progetti basati su altre librerie come per esempio jQuery o React o framework quali Angular.
 
