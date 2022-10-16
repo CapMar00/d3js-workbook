@@ -82,3 +82,7 @@ Nel caso volessimo intervenire sullo stile esiste il metodo specifico `.style()`
 ```javascript
 d3.select('p').style('color', 'blue')
 ```
+
+{% hint style="info" %}
+Per approfondire: [https://github.com/d3/d3-selection](https://github.com/d3/d3-selection)
+{% endhint %}
