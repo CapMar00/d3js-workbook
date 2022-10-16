@@ -37,7 +37,10 @@ Per inserire del contenuto all'interno del nuovo div possiamo usare:
 * `.html()` se vogliamo aggiungere del codice html
 
 ```javascript
-// Some code
+  const div = d3
+    .select("body")
+    .append("div")
+    .html("testo e <span>codice html</span>")
 ```
 
 ### Rimuovere elementi

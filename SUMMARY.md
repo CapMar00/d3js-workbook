@@ -4,7 +4,7 @@
 
 ## IN TEORIA
 
-* [Che cos'è D3.js](in-teoria/che-cose-d3.js.md)
+* [📖 Che cos'è D3.js](in-teoria/che-cose-d3.js.md)
 * [Perché usare D3.js](in-teoria/perche-usare-d3.js.md)
 * [Come lavora D3.js](in-teoria/come-lavora-d3.js/README.md)
   * [Selezioni e contenuti](in-teoria/come-lavora-d3.js/selezioni-e-contenuti.md)
@@ -15,7 +15,7 @@
 
 ## IN PRATICA
 
-* [Creiamo un grafico](in-pratica/creiamo-un-grafico.md)
+* [📈 Creiamo un grafico](in-pratica/creiamo-un-grafico.md)
   * [Impostiamo la struttura](in-pratica/creiamo-un-grafico/impostiamo-la-struttura.md)
   * [Elaboriamo i dati](in-pratica/creiamo-un-grafico/elaboriamo-i-dati.md)
   * [Mappiamo i dati](in-pratica/creiamo-un-grafico/mappiamo-i-dati.md)
