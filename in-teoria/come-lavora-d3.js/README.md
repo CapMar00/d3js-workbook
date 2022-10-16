@@ -23,7 +23,7 @@ si accede a queste funzioni utilizzando le API con questa sintassi:\
 
 Così, rispetto ai 4 step principali troviamo come funzioni corrispondenti per esempio:
 
-1. **Trasformare i dati** -> `d3.min(), d3.max(), d3.sum()` che restituiscono i valori minimo, massimo e somma di un iterabile e `d3.cross()` che restituisce il prodotto cartesiano di 2 vettori.
+1. **Lavorare i dati** -> `d3.min(), d3.max(), d3.sum()` che restituiscono i valori minimo, massimo e somma di un iterabile e `d3.cross()` che restituisce il prodotto cartesiano di 2 vettori.
 2. **Mappare i dati nello spazio** -> `d3.scaleLinear(), d3.scaleOrdinal()` e `d3.scaleTime()` come esempi di funzione necessarie per creare le scale.
 3. **Associare il layout** -> `d3.path()` usata per definire i path negli svg e `d3.treemap()` per creare mappe ad albero.
 4. **Disegnare il grafico** -> `d3.select(), d3.selectAll(), d3.append()` funzioni che lavorano con gli elementi del DOM.

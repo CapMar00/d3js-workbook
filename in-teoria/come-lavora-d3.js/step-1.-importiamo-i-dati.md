@@ -1,4 +1,4 @@
-# Step 1. Importiamo i dati
+# Step 1. Lavoriamo sui dati
 
 Per importare i dati <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> mette a disposizione una serie di funzioni dedicate ai formati più comuni e che si occupano anche del parsing, come per esempio `d3.csv()` e `d3.json()`.
 
