@@ -1,16 +1,18 @@
 # Come lavora D3.js
 
-
+### Gli step
 
 I passaggi **** per **creare una visualizzazione** in <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> si possono riassumere in **4 step**:
 
-&#x20;     :one: Importare e manipolare i dati in formati compatibili con le visualizzazioni
+:one: Importare e manipolare i dati in formati compatibili con le visualizzazioni
 
-&#x20;     :two: Mappare i dati rispetto allo spazio della visualizzazione, ovvero rapportare i valori allo spazio sullo schermo in modo da poterli disegnare in modo proporzionato.
+:two: Mappare i dati rispetto allo spazio della visualizzazione, ovvero rapportare i valori allo spazio sullo schermo in modo da poterli disegnare in modo proporzionato.
 
-&#x20;     :three: Associare il layout in base al tipo di visualizzazione prescelta.
+:three: Associare il layout in base al tipo di visualizzazione prescelta.
 
-&#x20;     :four: Disegnare il grafico sullo schermo.
+:four: Disegnare il grafico sullo schermo.
+
+### Le funzioni
 
 <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> è composta da 2 macro famiglie di funzioni:
 
@@ -19,10 +21,10 @@ I passaggi **** per **creare una visualizzazione** in <img src="../../.gitbook/a
 
 Una volta importata la libreria con l'approccio  preferito (CDN, npm, ecc.)&#x20;
 
-**`<script src="https://d3js.org/d3.v7.min.js"></script>`**
+`<script src="https://d3js.org/d3.v7.min.js"></script>`
 
 si accede a queste funzioni utilizzando le API con questa sintassi:\
-**`d3.metodo()`**
+`d3.metodo()`
 
 Così, rispetto ai 4 step principali troviamo come funzioni corrispondenti per esempio:
 
