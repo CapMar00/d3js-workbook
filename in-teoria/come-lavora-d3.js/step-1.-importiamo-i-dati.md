@@ -35,13 +35,39 @@ Si tratta di un processo utilizzato per creare, aggiornare o distruggere element
 
 <figure><img src="../../.gitbook/assets/data-join (1).png" alt=""><figcaption></figcaption></figure>
 
-La sintassi da utilizzare è `selezione.data(array[, key])` in cui `key` è un parametro opzionale per identificare il singolo dato, per esempio l'indice:
+La sintassi da utilizzare è `selezione.data(dataArray[, key])` in cui:
+
+* `selezione` è una selezione di elementi che può essere anche vuota
+* `.data()` associa i dati dell'array agli elementi del DOM
+* &#x20;`key` è un parametro opzionale per identificare il singolo dato, per esempio l'indice
+
+Per esempio il codice sottostante creare il legame tra i dati e gli elementi:
 
 ```javascript
-    d3.select('svg')
-        .selectAll('circle')
-        .data(data)
-        .enter()
+d3.select('svg')
+    .selectAll("circle") // selezione di elementi non ancora in pagina
+    .data(data)
+```
+
+Per aggiungerli effettivamente allo schermo dobbiamo chiamare `.enter().append('circle')`:
+
+```javascript
+d3.select('svg')
+    .selectAll('circle')
+    .data(data)
+    .enter()
+    .append('circle')
+```
+
+Il codice sopra seleziona i dati a cui non è associato un elemento.
+
+L'istruzione successiva restituisce invece la selezione degli elementi a cui non è associato nessun dato:
+
+```javascript
+d3.select('svg')
+    .selectAll('circle')
+    .data(data)
+    .exit()
 ```
 
 {% hint style="info" %}
