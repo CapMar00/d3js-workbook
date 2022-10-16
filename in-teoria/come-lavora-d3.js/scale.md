@@ -7,6 +7,7 @@ Per poterli normalizzare e visualizzare correttamente si utilizzano le scale che
 * `d3.scaleLinear()`
 * `d3.scaleLog()`
 * `d3.scaleOrdinal()`
+* `d3.scaleTime()`
 
 A ciascuna scala è associato un domain e un range: `.domain()` fa riferimento al dominio dei dati mentre `.range()` allo spazio della visualizzazione.\
 
