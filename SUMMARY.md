@@ -7,7 +7,8 @@
 * [Che cos'è D3.js](in-teoria/che-cose-d3.js.md)
 * [Perché usare D3.js](in-teoria/perche-usare-d3.js.md)
 * [Come lavora D3.js](in-teoria/come-lavora-d3.js/README.md)
-  * [Step 1. Elaboriamo i dati](in-teoria/come-lavora-d3.js/step-1.-elaboriamo-i-dati.md)
+  * [Come funzionano le selezioni](in-teoria/come-lavora-d3.js/come-funzionano-le-selezioni.md)
+  * [Elaboriamo i dati](in-teoria/come-lavora-d3.js/elaboriamo-i-dati.md)
 
 ## IN PRATICA
 
