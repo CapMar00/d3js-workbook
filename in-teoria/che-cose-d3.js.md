@@ -1,10 +1,10 @@
 # Che cos'è D3.js
 
-<img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> è una libreria javascript open source per creare visualizzazioni dati e grafiche web.
+<img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> è una libreria javascript open source per creare visualizzazioni di dati e grafiche web.
 
 La sua potenza è tutta racchiusa nelle tre D da cui prende il nome: Data-Driven Documents.
 
-<img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> permette di creare contenuti interattivi e animati basati sui dati e di legarli agli elementi esistenti nella pagina web.
+<img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> permette infatti di creare contenuti interattivi e animati basati sui dati e di legarli agli elementi esistenti nella pagina web.
 
 É stata creata nel 2011 da [Mike Bostock](https://observablehq.com/@mbostock) <img src="../.gitbook/assets/mike.avif" alt="" data-size="line">, un informatico americano insieme ad alcuni membri dello Stanford Vis Group.&#x20;
 
@@ -22,6 +22,6 @@ fino ai grafici più complessi come per esempio i radial cluster...&#x20;
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://observablehq.com/@d3/radial-cluster">https://observablehq.com/@d3/radial-cluster</a></p></figcaption></figure>
 
-... e le mappe
+... e le mappe coropletiche
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://observablehq.com/@d3/choropleth">https://observablehq.com/@d3/choropleth</a></p></figcaption></figure>
