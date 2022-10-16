@@ -35,6 +35,13 @@ Si tratta di un processo utilizzato per creare, aggiornare o distruggere element
 
 <figure><img src="../../.gitbook/assets/data-join (1).png" alt=""><figcaption></figcaption></figure>
 
+```javascript
+    d3.select('svg')
+        .selectAll('circle')
+        .data(data)
+        .enter()
+```
+
 {% hint style="info" %}
 Per approfondire: [Exploring D3.js Data Binding/ Joins](https://www.youtube.com/watch?v=ZOeWdkq-L90)
 {% endhint %}
