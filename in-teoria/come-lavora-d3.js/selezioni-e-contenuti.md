@@ -26,18 +26,18 @@ ovvero si seleziona l'elemento padre e poi si appende il figlio.
 Per esempio per aggiungere un `div` al `body`:
 
 ```javascript
-  const div = d3
+const div = d3
     .select("body")
     .append("div")
 ```
 
-Per inserire del contenuto all'interno del nuovo div possiamo usare:
+Per inserire del contenuto all'interno del nuovo `div` possiamo usare:
 
 * `.text([testo])` se vogliamo aggiungere del semplice testo
 * `.html([html])` se vogliamo aggiungere del codice html
 
 ```javascript
-  const div = d3
+const div = d3
     .select("body")
     .append("div")
     .html("testo e <strong>codice html</strong>")
