@@ -33,8 +33,12 @@ Per esempio per aggiungere un `div` al `body`:
 
 Per inserire del contenuto all'interno del nuovo div possiamo usare:
 
-* .text() che
-* .html() che
+* `.text()` se vogliamo aggiungere del semplice testo
+* `.html()` se vogliamo aggiungere del codice html
+
+```javascript
+// Some code
+```
 
 ### Rimuovere elementi
 
