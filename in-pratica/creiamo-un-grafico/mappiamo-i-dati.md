@@ -5,7 +5,7 @@ A questo punto dobbiamo rapportare i dati che abbiamo allo spazio della visualiz
 * `.scaleTime()` per le date
 * `.scaleLinear()` per i prezzi
 
-`.domain()` fa riferimento al dominio dei dati mentre `.range()` allo spazio della visualizzazione
+Nella mappatura `.domain()` fa riferimento al dominio dei dati mentre `.range()` allo spazio della visualizzazione
 
 {% tabs %}
 {% tab title="chart.js" %}
