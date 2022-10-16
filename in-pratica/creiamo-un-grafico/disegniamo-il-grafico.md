@@ -85,7 +85,7 @@ Per approfondire:\
 \- [d attribute in SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d)
 {% endhint %}
 
-A questo punto il grafico è fatto. Non resta che arricchirlo con ulteriori funzionalità come per esempio visualizzando un tooltip al mouse over (come nel codice condiviso nel link a piè di pagina)&#x20;
+A questo punto il grafico è fatto. Non resta che arricchirlo a piacere con ulteriori funzionalità come per esempio aggiungendo un tooltip al mouse over (vedi il codice condiviso nel link a piè di pagina)&#x20;
 
 <figure><img src="../../.gitbook/assets/grafico-con-tooltip.png" alt=""><figcaption></figcaption></figure>
 
