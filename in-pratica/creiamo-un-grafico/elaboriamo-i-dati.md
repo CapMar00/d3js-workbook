@@ -1,4 +1,4 @@
-# Lavoriamo sui dati
+# Elaboriamo i dati
 
 Da ora in poi ci sposteremo sul file `chart.js` e lavoreremo solo su quello.&#x20;
 
@@ -50,7 +50,7 @@ const createChart = (data) => {
     price: +d.HEATING_GAS_OIL,
   }));
   
-  const dateRange = d3.extent(data, (d) => d.date);
+  const dateExtent = d3.extent(data, (d) => d.date);
   const maxValue = d3.max(data, (d) => d.price);
 }
 
