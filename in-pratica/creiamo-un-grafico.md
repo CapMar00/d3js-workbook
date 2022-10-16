@@ -11,10 +11,6 @@ L'andamento avrà sull'asse delle ascisse il tempo e su quello delle ordinate il
 
 <figure><img src="../.gitbook/assets/Prezzo-gasolio-riscaldamento.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-Il codice completo del grafico è disponibile a questo link: [https://github.com/CapMar00/d3js-line-chart](https://github.com/CapMar00/d3js-line-chart)
-{% endhint %}
-
 I dati sono pubblicati dal [Ministero della Trasizione Ecologica](https://dgsaie.mise.gov.it/open-data). Sono in formato csv e fanno parte di un dataset più ampio che contiene i prezzi di più carburanti che per semplicità è stato ridotto a 2 colonne e salvato in locale:&#x20;
 
 * **SURVEY\_DATE** -> data espressa in aaaa-mm-gg

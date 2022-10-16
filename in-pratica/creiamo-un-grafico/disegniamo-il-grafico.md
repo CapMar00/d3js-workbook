@@ -74,3 +74,12 @@ const createChart = (data) => {
 {% hint style="info" %}
 Per approfondire: [Understanding the difference between the d3 data and datum methods](https://www.intothevoid.io/data-visualization/understanding-d3-data-vs-datum/)
 {% endhint %}
+
+A questo punto il nostro grafico è fatto. Non resta che arricchirlo con ulteriori funzionalità come per esempio visualizzando un tooltip al mouse over (come nel codice condiviso nel link a piè di pagina)&#x20;
+
+<figure><img src="../../.gitbook/assets/Prezzo-gasolio-riscaldamento.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Il codice completo del grafico è disponibile a questo link: [https://github.com/CapMar00/d3js-line-chart](https://github.com/CapMar00/d3js-line-chart)
+{% endhint %}
+
