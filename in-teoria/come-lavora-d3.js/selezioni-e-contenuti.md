@@ -43,7 +43,7 @@ const div = d3
     .html("testo e <strong>codice html</strong>")
 ```
 
-Le sintassi `.text()` e `.html()` senza valore al loro interno restituiscono il contenuto presente all'interno dell'elemento selezionato.
+Nota: le sintassi `.text()` e `.html()` senza valore al loro interno restituiscono il contenuto presente all'interno dell'elemento selezionato.
 
 ### Rimuovere elementi
 
@@ -75,7 +75,7 @@ d3.select('img').attr('src', 'new_image.png')
 d3.selectAll('p').attr('class', 'new_class')
 ```
 
-La sintassi `selezione.attr(attributo)` invece restituisce il valore dell'attributo.
+Nota: la sintassi `selezione.attr(attributo)` invece restituisce il valore dell'attributo.
 
 Nel caso volessimo intervenire sullo stile esiste il metodo specifico `.style()`:
 
