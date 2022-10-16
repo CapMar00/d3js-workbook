@@ -15,6 +15,8 @@
   * [Impostiamo la struttura](in-pratica/creiamo-un-grafico/impostiamo-la-struttura.md)
   * [Lavoriamo sui dati](in-pratica/creiamo-un-grafico/lavoriamo-sui-dati.md)
   * [Mappiamo i dati](in-pratica/creiamo-un-grafico/mappiamo-i-dati.md)
+  * [Associamo il layout](in-pratica/creiamo-un-grafico/associamo-il-layout.md)
+  * [Disegniamo il grafico](in-pratica/creiamo-un-grafico/disegniamo-il-grafico.md)
 
 ***
 
