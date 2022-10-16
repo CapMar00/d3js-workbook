@@ -1,41 +1,4 @@
----
-description: >-
-  Applichiamo quanto visto in precedenza per realizzare un grafico che esprima
-  l'andamento dei prezzi del gas da riscaldamento in Italia dal 2005 a oggi
-  (ottobre 2022).
----
-
-# Creiamo un grafico
-
-L'andamento avrà sull'asse delle ascisse il tempo e su quello delle ordinate il prezzo.
-
-<figure><img src="../.gitbook/assets/Prezzo-gasolio-riscaldamento.png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-Il codice completo del grafico è disponibile a questo link: [https://github.com/CapMar00/d3js-line-chart](https://github.com/CapMar00/d3js-line-chart)
-{% endhint %}
-
-I dati sono pubblicati dal [Ministero della Trasizione Ecologica](https://dgsaie.mise.gov.it/open-data). Sono in formato csv e fanno parte di un dataset più ampio che contiene i prezzi di più carburanti che per semplicità è stato ridotto a 2 colonne e salvato in locale:&#x20;
-
-* **SURVEY\_DATE** -> data espressa in aaaa-mm-gg
-* **HEATING\_GAS\_OIL** -> il prezzo espresso in €/1.000 L
-
-```csv
-SURVEY_DATE,HEATING_GAS_OIL
-2005-01-03,948.5
-2005-01-10,947.94
-2005-01-17,952.42
-2005-01-24,963.98
-2005-01-31,972.95
-...
-2022-09-12,1825.04
-2022-09-19,1771.42
-2022-09-26,1789.38
-2022-10-03,1792.42
-2022-10-10,1894.96
-```
-
-### Step 0. Creiamo la struttura
+# Impostiamo la struttura
 
 Ci servirà un file `index.html` che conterrà l'import della libreria `d3.js`, qualche piccola impostazione di stile contenuta in `style.css` e un file `chart.js` che conterrà il codice per generare il grafico.
 
@@ -136,50 +99,6 @@ div.tooltip {
 {% tab title="chart.js" %}
 ```javascript
 // codice d3
-```
-{% endtab %}
-{% endtabs %}
-
-Da ora in poi ci sposteremo sul file `chart.js` e lavoreremo solo su quello.&#x20;
-
-### Step 1. Manipoliamo i dati
-
-Importiamo i dati per poi richiamare la funzione che costruirà il grafico e che chiamiamo `createChart()`
-
-{% tabs %}
-{% tab title="chart.js" %}
-```javascript
-d3.csv("data/weekly_fuel_prices_from_2005_to_20221015.csv").then((data) =>
-  createChart(data)
-);
-
-const createChart = (data) => {
-  console.log(data);
-}
-```
-{% endtab %}
-{% endtabs %}
-
-I dati vengono importati in formato stringa ma per poterci lavorare abbiamo bisogno che siano rispettivamente in un formato `date` e numerico.\
-Fissiamo una larghezza e un'altezza per il grafico:\
-&#x20;
-
-{% tabs %}
-{% tab title="chart.js" %}
-```javascript
-d3.csv("data/weekly_fuel_prices_from_2005_to_20221015.csv").then((data) =>
-  createChart(data)
-);
-
-const createChart = (data) => {
-  const width = 550;
-  const height = 320;
-
-  data = data.map((d) => ({
-    date: new Date(d.SURVEY_DATE),
-    price: +d.HEATING_GAS_OIL,
-  }));
-}
 ```
 {% endtab %}
 {% endtabs %}
