@@ -8,7 +8,7 @@ Per creare il grafico ci serviranno:
 
 All'interno del tag `body` di `index.html` inseriamo già:
 
-* il titolo, sommario e fonte del grafico
+* titolo, sommario e fonte del grafico
 * un tag `<svg>` `#chart` con all'interno un gruppo `<g>` `#chart_body` che conterrà il grafico, opportunamento traslato di qualche pixel per ottimizzare la visualizzazione.
 
 {% tabs %}
