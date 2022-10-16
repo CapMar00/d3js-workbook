@@ -18,7 +18,7 @@ La sintassi da utilizzare è `selezione.data(dataArray[, key])` in cui:
 * `.data()` associa i dati dell'array agli elementi del DOM
 * &#x20;`key` è un parametro opzionale per identificare il singolo dato, per esempio l'indice
 
-Per esempio il codice sottostante creare il legame tra i dati e gli elementi:
+Il codice sottostante creare il legame tra i dati e gli elementi:
 
 ```javascript
 d3.select('svg')
