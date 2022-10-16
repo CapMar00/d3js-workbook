@@ -1,4 +1,4 @@
-# Le Scale
+# Le scale
 
 I dati difficilmente corrispondono già alla posizione e alle dimensioni degli elementi grafici sullo schermo.
 
