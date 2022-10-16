@@ -1,6 +1,10 @@
 # Impostiamo la struttura
 
-Ci servirà un file `index.html` che conterrà l'import della libreria `d3.js`, qualche piccola impostazione di stile contenuta in `style.css` e un file `chart.js` che conterrà il codice per generare il grafico.
+Per creare il grafico ci serviranno:
+
+* &#x20;un file `index.html` che conterrà l'import della libreria `d3.js`
+* qualche piccola impostazione di stile contenuta in `style.css`
+* un file `chart.js` che conterrà il codice per generare il grafico
 
 All'interno del tag `body` di `index.html` inseriamo già:
 

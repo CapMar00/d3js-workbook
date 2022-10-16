@@ -9,7 +9,7 @@ description: >-
 
 L'andamento avrà sull'asse delle ascisse il tempo e su quello delle ordinate il prezzo.
 
-<figure><img src="../../.gitbook/assets/Prezzo-gasolio-riscaldamento.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Prezzo-gasolio-riscaldamento.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Il codice completo del grafico è disponibile a questo link: [https://github.com/CapMar00/d3js-line-chart](https://github.com/CapMar00/d3js-line-chart)
