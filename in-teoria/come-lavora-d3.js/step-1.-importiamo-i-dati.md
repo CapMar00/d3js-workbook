@@ -33,6 +33,8 @@ Si tratta di un processo utilizzato per creare, aggiornare o distruggere element
 * `.exit()` - rappressenta gli elementi in eccesso rispetto ai dati che potrebbe essere necessario rimuovere dal documento.
 * `.update()` - rappresenta gli elementi esistenti che corrispondono ai dati ma che potrebbe essere necessario modificare
 
+<figure><img src="../../.gitbook/assets/data-join (1).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 Per approfondire: [Exploring D3.js Data Binding/ Joins](https://www.youtube.com/watch?v=ZOeWdkq-L90)
 {% endhint %}
