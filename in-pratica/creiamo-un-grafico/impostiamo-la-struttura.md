@@ -107,6 +107,6 @@ div.tooltip {
 {% endtab %}
 {% endtabs %}
 
-Ecco che cosa avremo in pagina:
+Ecco che cosa dunque come si presenterà la nostra pagina prima di aver disegnato il grafico:
 
 <figure><img src="../../.gitbook/assets/grafico-vuoto.png" alt=""><figcaption></figcaption></figure>
