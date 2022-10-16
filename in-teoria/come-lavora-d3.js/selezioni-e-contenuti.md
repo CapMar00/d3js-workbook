@@ -41,3 +41,15 @@ Per inserire del contenuto all'interno del nuovo div possiamo usare:
 Per eliminare un elemento presente in pagina si usa la sintassi:\
 `selezione.remove()`\
 ``ma questa volta la selezione fa riferimento all'elemento da rimuovere.
+
+Così per rimuore tutti gli `li` di una lista, scriveremo:
+
+```javascript
+d3.selectAll("li").remove()
+```
+
+e per rimuovere solo il primo
+
+```javascript
+d3.select("li").remove()
+```
