@@ -1,6 +1,6 @@
 # Mappiamo i dati
 
-A questo punto dobbiamo rapportare i dati che abbiamo allo spazio della visualizzazione definendo una larghezza `width` e un'altezza `height` e utilizzando le opportune scale:
+A questo punto dobbiamo rapportare i dati che abbiamo allo spazio della visualizzazione utilizzando le opportune scale:
 
 * `d3.scaleTime()` per le date
 * `d3.scaleLinear()` per i prezzi
@@ -9,17 +9,17 @@ A questo punto dobbiamo rapportare i dati che abbiamo allo spazio della visualiz
 {% tab title="chart.js" %}
 ```javascript
 const createChart = (data) => {
-  const width = 550;
-  const height = 320;
-  
-  ...
-  
+  data = data.map((d) => ({
+    date: new Date(d.SURVEY_DATE),
+    price: +d.HEATING_GAS_OIL,
+  }));
+
   const dateRange = d3.extent(data, (d) => d.date);
   const maxValue = d3.max(data, (d) => d.price);
 
   const xScale = d3.scaleTime().range([0, width]).domain(dateRange);
   const yScale = d3.scaleLinear().range([height, 0]).domain([0, maxValue]);
-}
+  }
 ```
 {% endtab %}
 {% endtabs %}

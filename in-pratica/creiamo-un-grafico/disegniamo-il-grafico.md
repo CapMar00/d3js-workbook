@@ -2,7 +2,7 @@
 
 Non ci resta dunque che disegnare gli assi e il grafico sullo schermo utilizzando `d3.append()`.
 
-Innanzitutto richiamiamo il gruppo `<g>` in cui inserire il grafico.
+Innanzitutto selezioniamo con `.select()` il gruppo `<g>` in cui inserire il grafico.
 
 Nel caso dell'asse y dovremo applicare una trasformazione per farlo comparire al piede del grafico invece che in alto:
 
@@ -72,5 +72,5 @@ const createChart = (data) => {
 {% endtabs %}
 
 {% hint style="info" %}
-Per approfondire: Understanding the difference between the d3 data and datum methods
+Per approfondire: [Understanding the difference between the d3 data and datum methods](https://www.intothevoid.io/data-visualization/understanding-d3-data-vs-datum/)
 {% endhint %}
