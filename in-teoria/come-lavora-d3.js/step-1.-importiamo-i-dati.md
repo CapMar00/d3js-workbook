@@ -35,6 +35,8 @@ Si tratta di un processo utilizzato per creare, aggiornare o distruggere element
 
 <figure><img src="../../.gitbook/assets/data-join (1).png" alt=""><figcaption></figcaption></figure>
 
+La sintassi da utilizzare è `selezione.data(array[, key])` in cui `key` è un parametro opzionale per indicare la posizione dell'elemento:
+
 ```javascript
     d3.select('svg')
         .selectAll('circle')
