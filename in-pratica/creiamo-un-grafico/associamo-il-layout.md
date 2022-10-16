@@ -10,7 +10,7 @@ Per creare questo genere di grafico <img src="../../.gitbook/assets/1562726.png"
 const createChart = (data) => {
   ...
   const yScale = d3.scaleLinear().range([height, 0]).domain([0, maxValue]);
-  const xScale = d3.scaleTime().range([0, width]).domain(dateRange);
+  const xScale = d3.scaleTime().range([0, width]).domain(dateExtent);
 
   const valueLine = d3
     .line()
