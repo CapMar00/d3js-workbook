@@ -45,6 +45,7 @@ d3.select('svg')
     .selectAll('circle')
     .data(data)
     .exit()
+    .remove()
 ```
 
 {% hint style="info" %}
