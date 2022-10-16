@@ -17,7 +17,8 @@ d3.json(urlDati)
 {% hint style="info" %}
 Per approfondire: \
 \- [https://github.com/d3/d3-fetch](https://github.com/d3/d3-fetch)\
-\- [Reading in data](http://learnjsdata.com/read\_data.html)
+\- [Reading in data](http://learnjsdata.com/read\_data.html)\
+\- [JavaScript Promises](https://www.freecodecamp.org/news/javascript-promise-methods/)
 {% endhint %}
 
 ### Data binding
