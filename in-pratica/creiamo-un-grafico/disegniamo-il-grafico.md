@@ -42,7 +42,7 @@ const createChart = (data) => {
 {% endtab %}
 {% endtabs %}
 
-All'oggetto line invece dovremo associare i dati per poter creare il `<path>` della linea. Per farlo si utilizza `d3.datum()`, invece di `d3.data()` perché dobbiamo associare i dati a un unico elemento  `<path>` invece che ad una serie.&#x20;
+Per disegnare l'andamento vero e proprio utilizzeremo un tag `<path>` a cui passeremo la funzione valueLine che abbiamo prima costruito. Per farlo si utilizza `d3.datum()`, invece di `d3.data()` perché dobbiamo associare i dati a un unico elemento  `<path>` invece che ad una serie.&#x20;
 
 {% tabs %}
 {% tab title="chart.js" %}
