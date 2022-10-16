@@ -2,6 +2,8 @@
 
 Non ci resta dunque che disegnare gli assi e il grafico sullo schermo selezionando con `.select()` il gruppo `<g>` e poi inserendo gli elementi con `.append()`.
 
+### Assi
+
 Disegniamo prima gli assi. Nel caso dell'asse y dovremo applicare una trasformazione per farlo comparire al piede del grafico invece che in alto:
 
 {% tabs %}
@@ -30,7 +32,9 @@ const createChart = (data) => {
 {% endtab %}
 {% endtabs %}
 
-ora procediamo con l'andamento: utilizzeremo un tag `<path>` a cui passeremo i dati.&#x20;
+### Grafico
+
+Ora procediamo con l'andamento: utilizzeremo un tag `<path>` a cui passeremo i dati.&#x20;
 
 Nel caso degli andamenti per il binding dei dati si utilizza `.datum()`, invece di `.data()` perché i dati vengono associati a un unico elemento  `<path>` invece che ad una serie di elementi.&#x20;
 
