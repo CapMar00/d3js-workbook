@@ -11,6 +11,7 @@
   * [Function chaining](in-teoria/come-lavora-d3.js/function-chaining.md)
   * [Import dei dati](in-teoria/come-lavora-d3.js/elaboriamo-i-dati.md)
   * [Data binding](in-teoria/come-lavora-d3.js/data-binding.md)
+  * [Le Scale](in-teoria/come-lavora-d3.js/le-scale.md)
 
 ## IN PRATICA
 
