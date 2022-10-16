@@ -1,5 +1,7 @@
 # 📌 Risorse per approfondire
 
+Qualora volessi proseguire nello studio di <img src=".gitbook/assets/1562726.png" alt="" data-size="line"> ecco alcuni link che ti permetteranno di approfondire e sperimentare.
+
 * [**D3 documentation**](https://github.com/d3/d3/wiki)****
 
 ### Manuali e tutorial

@@ -38,7 +38,7 @@ Ora procediamo con l'andamento: utilizzeremo un tag `<path>` a cui passeremo i d
 
 Nel caso degli andamenti per il binding dei dati si utilizza `.datum()`, invece di `.data()` perché i dati vengono associati a un unico elemento  `<path>` invece che ad una serie di elementi.&#x20;
 
-Le istruzioni su come un `<path>` deve disegnare una linea sono contenute nell'attributo `d`, a cui noi passiamo la funzione `valueLine` che abbiamo definito poc'anzi.
+Le istruzioni su come un `<path>` deve disegnare una linea sono contenute nell'attributo `d`, a cui noi passiamo la funzione `valueLine` che abbiamo impostato nel capitolo precedente.
 
 {% tabs %}
 {% tab title="chart.js" %}
