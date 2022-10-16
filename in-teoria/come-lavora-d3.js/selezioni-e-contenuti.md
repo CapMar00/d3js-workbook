@@ -43,13 +43,13 @@ const div = d3
     .html("testo e <strong>codice html</strong>")
 ```
 
-Nota: le sintassi `.text()` e `.html()` senza valore al loro interno restituiscono il contenuto presente all'interno dell'elemento selezionato.
+Nota: le sintassi `.text()` e `.html()` senza indicare un valore fra le parentesi restituiscono il contenuto presente all'interno dell'elemento selezionato.
 
 ### Rimuovere elementi
 
 Per eliminare un elemento presente in pagina si usa la sintassi:\
 `selezione.remove()`\
-``ma questa volta la selezione fa riferimento all'elemento da rimuovere.
+``e questa volta la selezione fa riferimento all'elemento da rimuovere.
 
 Così per rimuore tutti gli `li` di una lista, scriveremo:
 
