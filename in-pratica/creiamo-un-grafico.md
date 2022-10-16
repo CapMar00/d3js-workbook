@@ -7,7 +7,7 @@ description: >-
 
 # Creiamo un grafico
 
-I dati sono in formato csv e sono pubblicati dal [Ministero della Trasizione Ecologica](https://dgsaie.mise.gov.it/open-data). Fanno parte di un dataset più ampio che contiene i prezzi di più carburanti che per semplicità è stato ridotto a 2 colonne:&#x20;
+I dati sono in formato csv e sono pubblicati dal [Ministero della Trasizione Ecologica](https://dgsaie.mise.gov.it/open-data). Fanno parte di un dataset più ampio che contiene i prezzi di più carburanti che per semplicità è stato ridotto a 2 colonne e salvato in locale:&#x20;
 
 * **SURVEY\_DATE** -> data espressa in aaaa-mm-gg
 * **HEATING\_GAS\_OIL** -> il prezzo espresso in €/1.000 L
@@ -32,3 +32,112 @@ SURVEY_DATE,HEATING_GAS_OIL
 {% hint style="info" %}
 Il codice completo del grafico è disponibile a questo link: [https://github.com/CapMar00/d3js-line-chart](https://github.com/CapMar00/d3js-line-chart)
 {% endhint %}
+
+### Step 0. Creiamo la struttura
+
+Ci servirà un file index.html che conterrà l'import della libreria d3.js e qualche piccola impostazione di stile.
+
+All'interno del tag `body` inseriamo già:
+
+* il titolo, sommario e fonte del grafico
+* un tag `svg` `#chart` con all'interno un gruppo `g` `#chart_body` che conterrà il grafico, opportunamento traslato di qualche pixel per ottimizzare la visaulizzazione.
+
+{% tabs %}
+{% tab title="HTML" %}
+```html
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js"
+        integrity="sha512-MefNfAGJ/pEy89xLOFs3V6pYPs6AmUhXJrRlydI/9wZuGrqxmrdQ80zKHUcyadAcpH67teDZcBeS6oMJLPtTqw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Prezzo del gasolio per il riscaldamento</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Prezzo del gasolio per riscaldamento</h1>
+        <p>Media settimanale dei prezzi nazionali dal 2005 a oggi (€/1.000 L)</p>
+        <svg id="chart" width="700" height="400">
+            <g id="chart_body" transform="translate(50,50)"></g>
+        </svg>
+        <div class=" source">
+            Fonte: <a href="https://dgsaie.mise.gov.it/open-data" target="_blank" rel="noopener noreferrer">
+                Ministero della Transizione Ecologica - Direzione Generale Infrastrutture e Sicurezza</a>
+        </div>
+    </div>
+    <script src="chart.js"></script>
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="style.css" %}
+```css
+body {
+  font-family: Tahoma, sans-serif;
+}
+
+a:link {
+  color: #fb5c01;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fb5c01;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fb5c01;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #fb5c01;
+  text-decoration: underline;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  padding: 2px;
+  font: 16px;
+  background: #1c7af5;
+  color: #fff;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+#container {
+  width: fit-content;
+  margin: auto;
+}
+
+.source {
+  padding-top: 30px;
+  font-size: 0.8em;
+}
+
+```
+{% endtab %}
+
+{% tab title="chart.js" %}
+```javascript
+// Some code
+```
+{% endtab %}
+{% endtabs %}
+
+### Step 1. Manipoliamo i dati
+
+Importiamo i dati&#x20;
