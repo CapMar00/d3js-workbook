@@ -33,8 +33,8 @@ const div = d3
 
 Per inserire del contenuto all'interno del nuovo `div` possiamo usare:
 
-* `.text([testo])` se vogliamo aggiungere del semplice testo
-* `.html([html])` se vogliamo aggiungere del codice html
+* `.text(testo)` se vogliamo aggiungere del semplice testo
+* `.html(html)` se vogliamo aggiungere del codice html
 
 ```javascript
 const div = d3
