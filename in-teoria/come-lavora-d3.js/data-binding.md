@@ -38,7 +38,7 @@ d3.select('svg')
 
 Il codice sopra quindi seleziona i dati a cui non è associato un elemento in pagina e aggiunge gli elementi corrispondenti.
 
-L'istruzione successiva restituisce invece la selezione degli elementi a cui non è associato nessun dato:
+L'istruzione successiva restituisce invece la selezione degli elementi a cui non è associato nessun dato e li rimuove:
 
 ```javascript
 d3.select('svg')
