@@ -6,12 +6,12 @@
 
 * [Che cos'è D3.js](in-teoria/che-cose-d3.js.md)
 * [Perché usare D3.js](in-teoria/perche-usare-d3.js.md)
-* [Come lavora D3.js](in-teoria/come-lavora-d3.js.md)
+* [Come lavora D3.js](in-teoria/come-lavora-d3.js/README.md)
+  * [Step 1. Importiamo i dati](in-teoria/come-lavora-d3.js/step-1.-importiamo-i-dati.md)
 
 ## IN PRATICA
 
 * [Creiamo un grafico](in-pratica/creiamo-un-grafico.md)
-* [Importiamo i dati](in-pratica/importiamo-i-dati.md)
 
 ***
 

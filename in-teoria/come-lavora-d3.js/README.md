@@ -2,14 +2,14 @@
 
 
 
-Gli **step per creare una visualizzazione** in <img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> si possono riassumere in 4 step:
+Gli **step per creare una visualizzazione** in <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> si possono riassumere in 4 step:
 
 1. Trasformare i dati importati in formati compatibili con le visualizzazioni
 2. Mappare i dati rispetto allo spazio della visualizzazione, ovvero rapportare i valori allo spazio sullo schermo in modo da poterli disegnare in modo proporzionato.
 3. Elaborare il layout in base al tipo di visualizzazione prescelta.
 4. Disegnare il grafico sullo schermo.
 
-<img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> è composta da 2 macro famiglie di funzioni:
+<img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> è composta da 2 macro famiglie di funzioni:
 
 * i metodi per manipolare i dati
 * i metodi per visualizzare i dati
@@ -39,24 +39,18 @@ Per approfondire:\
 
 ### Function chaining
 
-<img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> utilizza in maniera estensiva l'approccio _function chaining_ dove più funzioni vengono chiamate consecutivamente sullo stesso oggetto.
+<img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> utilizza in maniera estensiva l'approccio _function chaining_ dove più funzioni vengono chiamate consecutivamente sullo stesso oggetto.
 
 ```javascript
-d3.selectAll(“div”)
-	.data(array)
-	.enter()
-	.append(“div”)
-	.html(“Testo”)
-	.append(“span”)
-	.html(“Altro testo”)
-	.style(“color”, “blue”)
+d3.select("body")
+    .append("p")
+    .text("Hello World!")
+    .attr("style", "color:blue");
 ```
 
 &#x20;Le funzioni possono essere concatenate perché l'istruzione che precede restuisce un risultato che può essere processato da quella successiva.
 
-### Data binding
 
-Nel codice precedente abbiamo anche incontrato per la prima volta il metodo `.data()` con il quale si legano i dati in input agli elementi del DOM selezionati.
 
 
 
