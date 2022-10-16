@@ -2,7 +2,7 @@
 
 
 
-Gli **step per creare una visualizzazione** in <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> si possono riassumere in 4 step:
+I passaggi **** per **creare una visualizzazione** in <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> si possono riassumere in **4 step**:
 
 1. Trasformare i dati importati in formati compatibili con le visualizzazioni
 2. Mappare i dati rispetto allo spazio della visualizzazione, ovvero rapportare i valori allo spazio sullo schermo in modo da poterli disegnare in modo proporzionato.
