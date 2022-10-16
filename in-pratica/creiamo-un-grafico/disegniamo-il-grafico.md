@@ -15,7 +15,7 @@ const createChart = (data) => {
    
   ...
   
-  const line = d3
+  const valueLine = d3
     .line()
     .x((d) => xScale(d.date))
     .y((d) => yScale(d.price));
@@ -64,8 +64,10 @@ const createChart = (data) => {
     .attr("transform", `translate(0, ${height})`)
     .call(d3.axisBottom(xScale));
 
-  chartBody.append("path").datum(data).attr("d", line).attr("class", "line");
-  
+  chartBody.append("path")
+    .datum(data)
+    .attr("d", valueLine)
+    .attr("class", "line");  
   }
 ```
 {% endtab %}
