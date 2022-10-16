@@ -5,13 +5,13 @@ description: >-
   (ottobre 2022).
 ---
 
-# Creiamo un grafico
+# 📈 Creiamo un grafico
 
 L'andamento avrà sull'asse delle ascisse il tempo e su quello delle ordinate il prezzo.
 
 <figure><img src="../.gitbook/assets/Prezzo-gasolio-riscaldamento.png" alt=""><figcaption></figcaption></figure>
 
-I dati sono pubblicati dal [Ministero della Trasizione Ecologica](https://dgsaie.mise.gov.it/open-data). Sono in formato csv e fanno parte di un dataset più ampio che contiene i prezzi di più carburanti che per semplicità è stato ridotto a 2 colonne e salvato in locale:&#x20;
+I dati sono pubblicati dal [Ministero della Trasizione Ecologica](https://dgsaie.mise.gov.it/open-data). Sono in formato csv e fanno parte di un dataset più ampio che contiene i prezzi di più carburanti. Per semplicità è stato ridotto alle sole 2 colonne utili per il caso in oggetto e salvato in locale:&#x20;
 
 * **SURVEY\_DATE** -> data espressa in aaaa-mm-gg
 * **HEATING\_GAS\_OIL** -> il prezzo espresso in €/1.000 L
