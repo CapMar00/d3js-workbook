@@ -75,3 +75,9 @@ d3.select('img').attr('src', 'new_image.png')
 ```
 
 La sintassi `selezione.attr(attributo)` invece restituisce il valore dell'attributo.
+
+Nel caso volessimo intervenire sullo stile esiste il metodo specifico `.style()`:
+
+```javascript
+d3.select('p').style('color', 'blue')
+```
