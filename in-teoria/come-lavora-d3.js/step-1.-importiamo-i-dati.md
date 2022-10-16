@@ -23,6 +23,12 @@ Per approfondire: \
 
 ### Data binding
 
-Un aspetto cruciale nell'utilizzo di <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> è capire come <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> associa i dati agli elementi in pagina, ovveri il _binding_ dei dati.
+Un aspetto cruciale nell'utilizzo di <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> è capire come <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> associa i dati agli elementi in pagina, ovveri il _binding/join_ dei dati.
+
+Si tratta di un processo utilizzato per creare, aggiornare o distruggere elementi ogni volta che i dati cambiano. Viene richiamato dal  `.data()` .
 
 Nel codice precedente abbiamo anche incontrato per la prima volta il metodo `.data()` con il quale si legano i dati in input agli elementi del DOM selezionati.
+
+{% hint style="info" %}
+Per approfondire: [Exploring D3.js Data Binding/ Joins](https://www.youtube.com/watch?v=ZOeWdkq-L90)
+{% endhint %}
