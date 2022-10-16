@@ -26,7 +26,7 @@ const createChart = (data) => {
 {% endtab %}
 {% endtabs %}
 
-Nel caso dell'asse y dobbiamo tenere conto che nel sistema di coordinate degli svg l'origine degli assi è in alto a sinistra e i valori aumentano procedendo verso il basso.
+Nel caso dell'asse y `.range()` va dal valore massimo `height` a 0 e non il contrario perché dobbiamo tenere conto che nel sistema di coordinate degli svg l'origine degli assi è in alto a sinistra e i valori aumentano procedendo verso il basso.
 
 <figure><img src="../../.gitbook/assets/coordinate-svg.png" alt=""><figcaption></figcaption></figure>
 
