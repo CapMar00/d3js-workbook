@@ -2,7 +2,7 @@
 
 Per esprimere i nostri dati abbiamo scelto come visualizzazione un andamento.
 
-Per creare questo genere di grafico <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> mette a disposizione il metodo generatore `.line()` che associa a ogni dato le coordinate di un punto.
+Per creare questo genere di grafico <img src="../../.gitbook/assets/1562726.png" alt="" data-size="line"> mette a disposizione il metodo generatore `.line()` che converte ogni dato nelle corrispondenti coordinate secondo le scale previste.
 
 {% tabs %}
 {% tab title="chart.js" %}
