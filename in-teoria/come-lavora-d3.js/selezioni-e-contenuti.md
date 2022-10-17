@@ -20,7 +20,7 @@ Così per esempio abbiamo selezionato il primo elemento con classe `title` all'i
 ### Aggiungere elementi
 
 Per aggiungere degli elementi si usa il metodo .append() e la sintassi è questa:\
-`selezione.append(tag)`\
+`selezione.append(elemento)`\
 ovvero si seleziona l'elemento padre e poi si appende il figlio.
 
 Per esempio per aggiungere un `div` al `body`:
