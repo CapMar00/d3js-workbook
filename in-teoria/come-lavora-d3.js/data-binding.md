@@ -49,5 +49,7 @@ d3.select('svg')
 ```
 
 {% hint style="info" %}
-Per approfondire: [Exploring D3.js Data Binding/ Joins](https://www.youtube.com/watch?v=ZOeWdkq-L90)
+Per approfondire:\
+\- [Learning D3.js - Now with data](https://observablehq.com/@1999/learning-d3-js-part-2-now-with-data)!\
+\- [Exploring D3.js Data Binding/ Joins](https://www.youtube.com/watch?v=ZOeWdkq-L90)
 {% endhint %}
