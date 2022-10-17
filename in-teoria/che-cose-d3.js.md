@@ -1,6 +1,6 @@
 # 📖 Che cos'è D3.js
 
-<img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> è una libreria javascript open source per creare visualizzazioni di dati e grafiche web.
+<img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> è una libreria javascript open source per creare visualizzazioni e grafiche web.
 
 La sua potenza è tutta racchiusa nelle tre D da cui prende il nome: Data-Driven Documents.
 
