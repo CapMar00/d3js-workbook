@@ -12,7 +12,7 @@ Si tratta di un processo utilizzato per creare, aggiornare o rimuovere elementi 
 
 <figure><img src="../../.gitbook/assets/data-join (1).png" alt=""><figcaption></figcaption></figure>
 
-La sintassi da utilizzare è `selezione.data(dataArray, key)` in cui:
+La sintassi da utilizzare è `selezione.data(dataArray[, key])` in cui:
 
 * `selezione` è una selezione di elementi che può essere anche vuota
 * `.data()` associa i dati dell'array agli elementi del DOM
