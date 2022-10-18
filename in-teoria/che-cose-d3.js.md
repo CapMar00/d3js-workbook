@@ -14,7 +14,7 @@ Leggi il[ paper che sancisce la nascita di D3](http://vis.stanford.edu/files/201
 
 É ormai uno standard nel campo della visualizzazione dati ed è costantemente aggiornata e arrichita di nuove funzionalità. Attualmente l'ultima versione disponibile è la [v7](https://github.com/d3/d3/releases).
 
-Con <img src="../.gitbook/assets/1562726.png" alt="" data-size="line">è possibile creare dai grafici più classici come un andamento
+Con <img src="../.gitbook/assets/1562726.png" alt="" data-size="line">è possibile creare dai grafici più classici
 
 <figure><img src="../.gitbook/assets/Il-vaccino-anti-covid-in-Italia-in-tempo-reale-Il-Sole-24-ORE.png" alt=""><figcaption><p><a href="https://lab24.ilsole24ore.com/numeri-vaccini-italia-mondo/">https://lab24.ilsole24ore.com/numeri-vaccini-italia-mondo/</a></p></figcaption></figure>
 
