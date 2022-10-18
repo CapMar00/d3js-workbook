@@ -16,16 +16,16 @@ Leggi il[ paper che sancisce la nascita di D3](http://vis.stanford.edu/files/201
 
 Con <img src="../.gitbook/assets/1562726.png" alt="" data-size="line">è possibile creare dai grafici più classici come un andamento
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://observablehq.com/@d3/line-with-tooltip">https://observablehq.com/@d3/line-with-tooltip</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Il-vaccino-anti-covid-in-Italia-in-tempo-reale-Il-Sole-24-ORE.png" alt=""><figcaption><p><a href="https://lab24.ilsole24ore.com/numeri-vaccini-italia-mondo/">https://lab24.ilsole24ore.com/numeri-vaccini-italia-mondo/</a></p></figcaption></figure>
 
-fino ai grafici più complessi come per esempio i radial cluster...&#x20;
+fino ai grafici più complessi&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://observablehq.com/@d3/radial-cluster">https://observablehq.com/@d3/radial-cluster</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Qualità-della-vita-2020-la-classifica-delle-province-italiane-dove-si-vive-meglio-Bologna-la-migliore-nell-anno-del-virus-Il-Sole-24-ORE.png" alt=""><figcaption><p><a href="https://lab24.ilsole24ore.com/qualita-della-vita/">https://lab24.ilsole24ore.com/qualita-della-vita/</a></p></figcaption></figure>
 
-... e le mappe coropletiche
+... e alle mappe
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://observablehq.com/@d3/choropleth">https://observablehq.com/@d3/choropleth</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Coronavirus-in-Italia-i-dati-e-la-mappa.png" alt=""><figcaption><p><a href="https://lab24.ilsole24ore.com/coronavirus/">https://lab24.ilsole24ore.com/coronavirus/</a></p></figcaption></figure>
 
-Per creare queste visualizzazioni, <img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> opera aggiungendo, rimuovendo e aggiornando gli elementi del DOM a seconda dei dati a disposizione:
+Per creare queste visualizzazioni, <img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> opera aggiungendo, rimuovendo e aggiornando gli elementi del DOM, in particolare degli SVG, a seconda dei dati a disposizione:
 
-<figure><img src="../.gitbook/assets/console.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot from 2022-10-18 03-50-13.png" alt=""><figcaption></figcaption></figure>
