@@ -14,7 +14,7 @@ Dalla versione 4 in poi è stata armonizzata con javascript ES6 per cui c'è pie
 
 &#x20;É compatibile con i formati di dati più comuni come csv e json.
 
-Ha una community molto attiva e un archivio di esempi ampio e ben documentato che ne facila l'apprendimento.
+Ha una community molto attiva e un archivio di esempi ampio e ben documentato che ne facila l'utilizzo.
 
 É costantemente aggiornata. La versione più recente è la 7 ma anche le precedenti versioni 6 e 5 sono ancora manutenute e assicurano ottimi risultati.
 
