@@ -2,9 +2,11 @@
 
 Ormai sono disponibili online molte librerie che permettono la creazione di grafici con poche istruzioni e diversi tool anche gratuiti consentono la realizzazione di grafici senza l'uso del codice.
 
-**Perché dunque imparare** <img src="../.gitbook/assets/1562726.png" alt="" data-size="line">**?** Innanzitutto perché <img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> non è solo una libreria per costruire grafici ma permette di creare visualizzazioni completamente personalizzate.
+**Perché dunque imparare** <img src="../.gitbook/assets/1562726.png" alt="" data-size="line">**?** Innanzitutto perché <img src="../.gitbook/assets/1562726.png" alt="" data-size="line"> non è solo una libreria per costruire grafici con template predisposti ma permette di creare visualizzazioni completamente personalizzate garantendo il pieno controllo su ogni aspetto della sua realizzazione.
 
 Inoltre la sua versatilità assicura ottimi risultati su ogni tipo di progetto, dai semplici prototipi per scopi di ricerca alla realizzazione di dashboard complesse che poggiano su ampi dataset.
+
+Garantisce un livello di interattività completo e animazioni fluide.
 
 <img src="../.gitbook/assets/1562726.png" alt="" data-size="line">è conforme agli standard web HTML5, CSS3, SVG e Canvas e ne sfrutta appieno le potenzialità.
 
