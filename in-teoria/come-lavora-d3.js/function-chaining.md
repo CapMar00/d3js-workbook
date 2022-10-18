@@ -6,7 +6,7 @@
   let svg = d3
     .select("#multiple-charts")
     .selectAll("svg")
-    .data(nestedDataByRegion)
+    .data(data)
     .enter()
     .append("svg")
     .attr("width", width + margin.left + margin.right)
