@@ -38,7 +38,7 @@ const createChart = (data) => {
 {% endtab %}
 {% endtabs %}
 
-Dobbiamo anche definire quali sono il minimo e il massimo dei range di valori per poter costruire le scale. Nel caso delle date questi valori ci vengono fornite da `.extent()`.\
+Dobbiamo anche definire quali sono il minimo e il massimo del dominio di valori per poter costruire le scale. Nel caso delle date questi valori ci vengono fornite da `.extent()`.\
 Per i prezzi invece vogliamo che l'asse y parta da 0 per cui calcoliamo solo il massimo con `.max()`
 
 {% tabs %}
