@@ -20,7 +20,9 @@ Qualora volessi proseguire nello studio di <img src=".gitbook/assets/1562726.png
 * ****[**Data Sketches**](https://github.com/nbremer/datasketches)****
 
 {% hint style="info" %}
-Il 26 e 27 ottobre si terrà la conferenza online **Observable **_**Insight**_ in cui poter sentire dal vivo Mike Bostock e altri esperti di data visualization che lavorano con D3 e la piattaforma Observable. _****_ La registrazione è gratuita. \
-Maggiori informazioni a questo link [https://hopin.com/events/observable-insight/registration?utm\_campaign=conference22\&utm\_source=obspopups](https://hopin.com/events/observable-insight/registration?utm\_campaign=conference22\&utm\_source=obspopups)
+Il 26 e 27 ottobre si è tenuta la conferenza online **Observable **_**Insight**_ in cui poter sentire dal vivo Mike Bostock e altri esperti di data visualization che lavorano con D3 e la piattaforma Observable. _****_ Ecco le registrazioni delle 2 giornate.
 {% endhint %}
 
+{% embed url="https://youtu.be/yqt-IAqbGNU" %}
+
+{% embed url="https://youtu.be/sJbPyCLaUG8" %}
